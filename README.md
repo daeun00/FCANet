@@ -17,3 +17,8 @@ evaluations demonstrate that the proposed network achieves competitive performan
 in both subjective quality and objective metrics, confirming its effectiveness for low-light
 image enhancement.
 
+## Test
+1. Download model file
+   https://drive.google.com/drive/folders/1jZIQUwlCCqy2MS9X4dBtfljbFTZX6hGi?usp=drive_link
+2. run test.py
+   
