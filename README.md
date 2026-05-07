@@ -17,6 +17,9 @@ evaluations demonstrate that the proposed network achieves competitive performan
 in both subjective quality and objective metrics, confirming its effectiveness for low-light
 image enhancement.
 
+##Architecture
+
+
 ## Requirements
 * Python 3.8
 * PyTorch 2.4
