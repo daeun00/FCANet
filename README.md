@@ -1,5 +1,4 @@
 # Low-Light Image Enhancement via Wavelet Domain Frequency Cross-Attention 
-[[Paper]](https://doi.org/10.3390/sym18030470)
 
 ## Abstract
 This study proposes a novel low-light image enhancement network that incorporates a frequency
@@ -16,10 +15,13 @@ thereby preserving their inherent correlations. The proposed network produces vi
 consistent and refined outputs by balancing the enhanced wavelet subbands. Experimental
 evaluations demonstrate that the proposed network achieves competitive performance
 in both subjective quality and objective metrics, confirming its effectiveness for low-light
-image enhancement.
+image enhancement.<br/>
+[[Paper]](https://doi.org/10.3390/sym18030470)
 
 ## Architecture
 ![Alt text](/figures/overall_architecture.png)
+<br/>
+<br/>
 
 ## Requirements
 * Python 3.8
@@ -32,7 +34,7 @@ pip install pillow, opencv-python, scikit-image, sacred, pymongo
 ## Test
 * Put test images under ./test_img folder.
 * Put the trained model under  ./models folder.
-   + You can download best model file [here](https://drive.google.com/drive/folders/1jZIQUwlCCqy2MS9X4dBtfljbFTZX6hGi?usp=drive_link)
+<br/> - You can download best model file [here](https://drive.google.com/drive/folders/1jZIQUwlCCqy2MS9X4dBtfljbFTZX6hGi?usp=drive_link)
 * Run test.py
 ```
 python test.py --modelfile models/FCANet.pth
