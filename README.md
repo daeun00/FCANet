@@ -1,4 +1,5 @@
-# Low-Light Image Enhancement via Wavelet Domain Frequency Cross-Attention
+# Low-Light Image Enhancement via Wavelet Domain Frequency Cross-Attention 
+[[Paper]](https://doi.org/10.3390/sym18030470)
 
 ## Abstract
 This study proposes a novel low-light image enhancement network that incorporates a frequency
@@ -17,8 +18,8 @@ evaluations demonstrate that the proposed network achieves competitive performan
 in both subjective quality and objective metrics, confirming its effectiveness for low-light
 image enhancement.
 
-##Architecture
-
+## Architecture
+![Alt text](/figures/overall_architecture.png)
 
 ## Requirements
 * Python 3.8
@@ -37,6 +38,19 @@ pip install pillow, opencv-python, scikit-image, sacred, pymongo
 python test.py --modelfile models/FCANet.pth
 ```
 * The test results will be saved to the folder: ./output.
-   + You can check example results about DICM, Fusion, LIME, LOL, MEF, VV datasets.
 
-   
+## Results
+* You can check example results about DICM, Fusion, LIME, LOL, MEF, VV datasets.
+* Qualitative comparison<br/>
+<img src="/figures/qualitative_comparision.png" width="60%" height="60%" title="Qualitative Comparison"></img><br/>
+
+
+## Citation Information
+```
+@article{FCA2026lee,
+  title={Low-Light Image Enhancement via Wavelet Domain Frequency Cross-Attention},
+  author={Lee Da Eun, Jun Young Park, and Il Kyu Eom},
+  journal={Symmetry},
+  year={2026},
+}
+```  
