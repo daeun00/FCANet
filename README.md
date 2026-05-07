@@ -34,6 +34,6 @@ pip install pillow, opencv-python, scikit-image, sacred, pymongo
 python test.py --modelfile models/FCANet.pth
 ```
 * The test results will be saved to the folder: ./output.
-   + You can check example results in the output folder
+   + You can check example results about DICM, Fusion, LIME, LOL, MEF, VV datasets.
 
    
