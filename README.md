@@ -21,7 +21,6 @@ image enhancement.<br/>
 ## Architecture
 ![Alt text](/figures/overall_architecture.png)
 <br/>
-<br/>
 
 ## Requirements
 * Python 3.8
@@ -41,11 +40,12 @@ python test.py --modelfile models/FCANet.pth
 ```
 * The test results will be saved to the folder: ./output.
 <br/>
-<br/>
+
 ## Results
-* You can check example results about DICM, Fusion, LIME, LOL, MEF, VV datasets.
+* You can check example results about DICM, Fusion, LIME, LOL, MEF, VV datasets.<br/>
 * Qualitative comparison<br/>
 <img src="/figures/qualitative_comparision.png" width="70%" height="70%" title="Qualitative Comparison"></img><br/>
+<br/>
 
 
 ## Citation Information
