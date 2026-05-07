@@ -50,7 +50,7 @@ python test.py --modelfile models/FCANet.pth
 
 ## Citation Information
 ```
-@article{FCA2026lee,
+@article{FCANet2026lee,
   title={Low-Light Image Enhancement via Wavelet Domain Frequency Cross-Attention},
   author={Lee Da Eun, Jun Young Park, and Il Kyu Eom},
   journal={Symmetry},
