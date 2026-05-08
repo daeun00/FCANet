@@ -15,8 +15,7 @@ thereby preserving their inherent correlations. The proposed network produces vi
 consistent and refined outputs by balancing the enhanced wavelet subbands. Experimental
 evaluations demonstrate that the proposed network achieves competitive performance
 in both subjective quality and objective metrics, confirming its effectiveness for low-light
-image enhancement.<br/>
-[**[Paper]**](https://doi.org/10.3390/sym18030470)
+image enhancement. :book: : [**[Paper]**](https://doi.org/10.3390/sym18030470)
 
 ## Architecture
 * **Overall Architecture**<br/>
