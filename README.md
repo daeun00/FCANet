@@ -16,9 +16,10 @@ consistent and refined outputs by balancing the enhanced wavelet subbands. Exper
 evaluations demonstrate that the proposed network achieves competitive performance
 in both subjective quality and objective metrics, confirming its effectiveness for low-light
 image enhancement.<br/>
-[[Paper]](https://doi.org/10.3390/sym18030470)
+[**[Paper]**](https://doi.org/10.3390/sym18030470)
 
 ## Architecture
+* **Overall Architecture**<br/>
 ![Alt text](/figures/overall_architecture.png)
 <br/>
 
@@ -31,8 +32,8 @@ pip install pillow, opencv-python, scikit-image, sacred, pymongo
 ```
 
 ## Test
-* Put test images under ./test_img folder.
-* Put the trained model under  ./models folder.
+* Put test images under *./test_img* folder.
+* Put the trained model under  *./models* folder.
 <br/> - You can download best model file [here](https://drive.google.com/drive/folders/1jZIQUwlCCqy2MS9X4dBtfljbFTZX6hGi?usp=drive_link)
 * Run test.py
 ```
@@ -42,8 +43,8 @@ python test.py --modelfile models/FCANet.pth
 <br/>
 
 ## Results
-* You can check example results about DICM, Fusion, LIME, LOL, MEF, VV datasets in each folder.<br/>
-* Qualitative comparison<br/>
+* You can check example results about *DICM*, *Fusion*, *LIME*, *LOL*, *MEF*, *VV* datasets in each folder.<br/>
+* **Qualitative Comparison**<br/>
 <img src="/figures/qualitative_comparision.png" width="70%" height="70%" title="Qualitative Comparison"></img><br/>
 <br/>
 
