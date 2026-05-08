@@ -42,7 +42,7 @@ python test.py --modelfile models/FCANet.pth
 <br/>
 
 ## Results
-* You can check example results about DICM, Fusion, LIME, LOL, MEF, VV datasets.<br/>
+* You can check example results about DICM, Fusion, LIME, LOL, MEF, VV datasets in each folder.<br/>
 * Qualitative comparison<br/>
 <img src="/figures/qualitative_comparision.png" width="70%" height="70%" title="Qualitative Comparison"></img><br/>
 <br/>
